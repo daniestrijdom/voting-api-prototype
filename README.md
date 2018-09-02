@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails v5.2
+Ruby v2.5
 
-Things you may want to cover:
+This is a simple api for voting / poll widgets
 
-* Ruby version
+Example object:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```json
+{
+  "title" : "Is this a good API?",
+  "premise" : "this is up for debate, but actually the answer is no",
+  "url": "http://www.railsfordays.com",
+  "upvote": 555,
+  "downvote": 21,
+  "created_at": "2018-09-02T09:55:47.202Z",
+  "updated_at": "2018-09-02T09:55:47.202Z"
+}
+```
